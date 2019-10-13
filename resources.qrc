@@ -1,0 +1,15 @@
+<RCC>
+    <qresource prefix="/rec">
+        <file>img/angle-arrow-down.png</file>
+        <file>img/circle.png</file>
+        <file>img/diode.png</file>
+        <file>img/keyboard-right-arrow-button.png</file>
+        <file>img/line.png</file>
+        <file>img/musical-note.png</file>
+        <file>img/rectangle.png</file>
+        <file>img/star.png</file>
+        <file>img/triangle.png</file>
+        <file>img/up-arrow.png</file>
+        <file>img/left-arrow.png</file>
+    </qresource>
+</RCC>
