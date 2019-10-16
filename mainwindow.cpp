@@ -1,5 +1,6 @@
 #include "mainwindow.h"
 #include "ui_mainwindow.h"
+#include <QMessageBox>
 
 MainWindow::MainWindow(QWidget *parent)
     : QMainWindow(parent)
@@ -19,26 +20,31 @@ MainWindow::~MainWindow()
 void MainWindow::on_pushButtonRectangle_clicked()
 {
   // Start rectangle movement
+  QMessageBox::information(this, "Shape", "Rectangle Shape");
 }
 
 void MainWindow::on_pushButtonCircle_clicked()
 {
   // Start circle movement
+    QMessageBox::information(this, "Shape", "Circle Shape");
 }
 
 void MainWindow::on_pushButtonLine_clicked()
 {
   // start line movement
+    QMessageBox::information(this, "Shape", "Line Shape");
 }
 
 void MainWindow::on_pushButtonTriangle_clicked()
 {
   // start triangle movement
+    QMessageBox::information(this, "Shape", "Triangle Shape");
 }
 
 void MainWindow::on_pushButtonStar_clicked()
 {
   // start star movement
+    QMessageBox::information(this, "Star", "Rectangle Shape");
 }
 
 
